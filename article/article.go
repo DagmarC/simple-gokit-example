@@ -1,7 +1,7 @@
 package article
 
 type Article struct {
-	ID    string `json:  id`
+	ID    string
 	Title string
 	Text  string
 }
